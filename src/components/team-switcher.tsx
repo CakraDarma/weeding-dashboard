@@ -19,8 +19,7 @@ export function TeamSwitcher({}: {
       <DropdownMenuTrigger asChild>
         <div className="flex items-center gap-x-2 px-1.5">
           <Image src={"/sample-img.png"} alt="img" width={30} height={30} />
-          {/* <div className="flex aspect-square size-5 items-center justify-center rounded-md bg-sidebar-primary text-sidebar-primary-foreground">
-          </div> */}
+          <span className="text-sm">Dara & Arifin Weddings</span>
           <ChevronDown className="opacity-50 text-primary" />
         </div>
       </DropdownMenuTrigger>
